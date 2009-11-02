@@ -67,22 +67,22 @@ http://docs.google.com/View?id=dgjq83q7_25fc32sxf8
 Тащусь от них. :)
 
 Краткий список того, с чем сталкивался на вебе:
- - RoR (плюс основные плагины).
- - PHP (phpDoctrine, Symfony, Cake).
- - Git/SVN.
- - SQL (mySQL, Firebird, MSSQL). Postgres использовал совсем немного.
- - Javascript (Prototype => jQuery, Ext).
- - ASP.NET (MVC Toolkit)
- - ActionScript 3.0 + FMS (не глубоко, эксперименты для оценки сроков
+- RoR (плюс основные плагины).
+- PHP (phpDoctrine, Symfony, Cake).
+- Git/SVN.
+- SQL (mySQL, Firebird, MSSQL). Postgres использовал совсем немного.
+- Javascript (Prototype => jQuery, Ext).
+- ASP.NET (MVC Toolkit)
+- ActionScript 3.0 + FMS (не глубоко, эксперименты для оценки сроков
 по проекту видеохостинга).
 
 Не на вебе:
- - C++ (STL, boost, WTL, MFC, немного - сервер под UNIX)
- - C# (NHibernate, Castle ActiveRecord ZedGraph)
- - Когда-то - ассемблер (80386, в защищённом режиме - игрушки на Watcom C,
+- C++ (STL, boost, WTL, MFC, немного - сервер под UNIX)
+- C# (NHibernate, Castle ActiveRecord ZedGraph)
+- Когда-то - ассемблер (80386, в защищённом режиме - игрушки на Watcom C,
 занимал в школе с ними первые места по городу :)
- - Smalltalk (VisualAge, Squeak, ST/X - чисто поиграться)
- - UNIX.
+- Smalltalk (VisualAge, Squeak, ST/X - чисто поиграться)
+- UNIX.
 
 Каждую технологию/плагин/фреймворк из упомянутых реально использовал
 хотя бы в одном проекте или прототипе.
