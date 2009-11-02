@@ -1,0 +1,2 @@
+page.replace_html "conf_units", :partial => "conf_units"
+page << "conf_units_droppables();"

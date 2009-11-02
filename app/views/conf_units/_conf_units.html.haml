@@ -1,0 +1,7 @@
+%tr{:id => "root"}
+  %td
+  %td= icon(:root)
+  %td
+  %td
+- ConfUnit.each_with_level(@conf_units) do |conf_unit, level|
+  = render :partial => "conf_unit", :locals => { :conf_unit => conf_unit, :level => level }

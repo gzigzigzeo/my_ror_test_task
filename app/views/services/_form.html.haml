@@ -1,0 +1,16 @@
+- form_for @service, :html => { :class => "columned bordered" } do |f|
+  .row
+    = f.label :name, "Наименование"
+    = f.text_field :name
+    = f.error_message_on :name
+  - field_set_tag "КЕ" do
+    .no_label
+      %table.list
+        %thead
+          %th{:width => 20}
+          %th{:width => "%"} Наименование
+        %tbody#conf_units
+          - @conf_units.each do |conf_unit|
+            = render :partial => "conf_unit", :locals => { :conf_unit => conf_unit }
+  .div
+    = f.submit "Сохранить", :class => "submit"

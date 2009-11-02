@@ -1,0 +1,7 @@
+- content_tag :tr, :id => "target_conf_unit_#{conf_unit.id}", :class => conf_unit.active ? "" : "inactive" do
+  %td= link_to icon(:edit), edit_conf_unit_path(conf_unit)  
+  %td= icon(:move, :class => "_move", :rel => conf_unit_drag_helper(conf_unit), :id => "source_conf_unit_#{conf_unit.id}")
+  %td{:class => "level_#{level}"}
+    = conf_unit.name
+    = link_to icon(:create_child), new_conf_unit_path(:conf_unit => { :parent_id => conf_unit.id })
+  %td= link_to icon(:delete), conf_unit_path(conf_unit), :method => :delete, :confirm => t("delete_confirmation")

@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+s1:
+  name: КЛАДР для СБ
+  conf_units: cu7, cu3
+  
+s2:
+  name: Counter-Strike для бухгалтерии
+  conf_units: cu2, cu7, cu8, cu9

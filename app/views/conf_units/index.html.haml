@@ -1,0 +1,13 @@
+%h1 КЕ
+
+%table.list
+  %thead
+    %th{:width => 20}
+    %th{:width => 20}
+    %th{:width => "%"} Название
+    %th{:width => 20}
+  %tbody#conf_units
+    = render "conf_units"
+
+:javascript    
+  conf_units_droppables();

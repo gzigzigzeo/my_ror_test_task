@@ -1,0 +1,5 @@
+%tr
+  %td= link_to icon(:edit), edit_service_path(service), :title => service.name
+  %td= service.name
+  %td= service.conf_units.map { |u| u.name }.join(", ")
+  %td= link_to icon(:delete), service_path(service), :method => "delete", :confirm => t("delete_confirmation")

@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    = stylesheet_link_tag "admin/reset", "admin/admin", "admin/custom"
+    = javascript_include_tag :defaults, "admin"
+    /[if gte IE 7]
+      = stylesheet_link_tag "admin/ie"
+
+  %body
+    #top_info.flash{:style => "display: none;"}= flash[:notice] || flash[:error]
+  
+    .navigation1
+      %ul
+        = render :partial => "layouts/nav"
+    - begin
+      - s = render :partial => "subnav"
+      .navigation2
+        %ul= s
+    - rescue ActionView::MissingTemplate
+      .empty
+
+    .content= yield
+
+    .copyrights

@@ -1,0 +1,11 @@
+%h1 Услуги
+
+%table.list
+  %thread
+    %th{:width => 20}
+    %th{:width => "20%"} Наименование
+    %th{:width => "%"} Связанные КЕ
+    %th{:width => 20}
+  %tbody
+    = render @services
+    

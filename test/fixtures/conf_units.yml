@@ -1,0 +1,71 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+cup1:
+  name: Сервер MySQL
+  active: true
+  active_last_checked: true
+
+cu2:
+  name: БД Counter-Strike
+  parent: cup1
+  active: true
+  active_last_checked: true
+  
+cu3:
+  name: БД КЛАДР
+  parent: cup1
+  active: true
+  active_last_checked: true
+  
+cup2:
+  name: Пользовательские компьютеры
+  active: true
+  active_last_checked: true
+  
+cu5:
+  name: Кабинет №401
+  active: true
+  active_last_checked: true
+  parent: cup2
+
+cu6:
+  name: Кабинет №402
+  active: true
+  active_last_checked: true
+  parent: cup2
+  
+cu7:
+  name: Компьютер №401-1
+  active: true
+  active_last_checked: true
+  parent: cu5
+  
+cu8:
+  name: Компьютер №401-2
+  active: true
+  active_last_checked: true
+  parent: cu5
+  
+cu9:
+  name: Компьютер №401-3
+  active: true
+  active_last_checked: true
+  parent: cu5
+  
+cu10:
+  name: Компьютер №402-1
+  active: true
+  active_last_checked: true
+  parent: cu6
+  
+cu11:
+  name: Компьютер №402-2
+  active: true
+  active_last_checked: true
+  parent: cu6
+  
+cu12:
+  name: Компьютер №402-3
+  active: true
+  active_last_checked: true
+  parent: cu6

@@ -1,0 +1,31 @@
+table.list tr.hover td { background-color: #D5D5D5; }
+
+tbody#conf_units tr td { padding: 4px 6px 4px 6px; border-right: 1px solid #DDDDDD; }
+
+tbody#conf_units tr td.level_1, dt.level_1 { padding-left: 20px; }
+tbody#conf_units tr td.level_2, dt.level_2 { padding-left: 40px; }
+tbody#conf_units tr td.level_3, dt.level_3 { padding-left: 60px; }
+tbody#conf_units tr td.level_4, dt.level_4 { padding-left: 80px; }
+tbody#conf_units tr td.level_5, dt.level_5 { padding-left: 100px; }
+
+tbody#conf_units tr.inactive td { background-color: #FFDDDD; }
+
+option.level_1 { padding-left: 1em; }
+option.level_2 { padding-left: 2em; }
+option.level_3 { padding-left: 3em; }
+option.level_4 { padding-left: 4em; }
+option.level_5 { padding-left: 5em; }
+
+table.list tr.drop_hover td { background-color: #478BCF; }
+
+.helper { 
+    padding: 0.5em 0.5em 0.5em 25px;
+    border: 1px solid #EEEEEE;     
+    background: #CCCCCC url(/images/admin/move.png) no-repeat;
+    background-position: 4px 4px;
+}
+
+.helper.reorder {
+    background: #AACCFF url(/images/admin/reorder.png) no-repeat;
+    background-position: 4px 3px;
+}

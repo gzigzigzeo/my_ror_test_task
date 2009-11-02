@@ -1,0 +1,28 @@
+= init_dyn_clone
+
+- form_for @conf_unit, :html => { :class => "bordered columned" } do |f|  
+  - field_set_tag "Основные:" do
+    .row
+      = f.label :parent_id, "Родитель:"
+      = select_tag "conf_unit[parent_id]", conf_unit_option_tree(@conf_units, f.object.parent)
+    .row
+      = f.label :name, "Название:"
+      = f.text_field :name
+      = f.error_message_on :name
+  - field_set_tag "Динамические" do
+    .row.last.no_label
+      %table.list
+        %thead
+          %th Наименование
+          %th Значение
+          %th
+        %tbody#dyn_attrs
+          - f.fields_for :dyn_attrs do |a|
+            = render :partial => "dyn_attr", :object => a
+        %tfoot
+          %tr
+            %td{:colspan => 3}
+              %a{:href => "#", :id => "dyn_attr_clone"} Добавить
+        
+  .div
+    = f.submit "Сохранить", :class => "submit"

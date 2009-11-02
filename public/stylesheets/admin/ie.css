@@ -1,0 +1,12 @@
+.navigation1, .navigation2 {overflow: hidden;}
+table.list .with_form input, table.list .with_form select, table.list .with_form textarea {vertical-align: middle;}
+fieldset {padding: 0 1em 0 1em;}
+legend {margin-bottom: 1em;}
+*form div.image input.checks {margin: -57px 3px 0 0px;}
+*form div.image {margin-bottom: 0; padding-bottom: 8px;}
+*form div.row table td {padding: 4px 16px 0 0; }
+*form ul li label {padding-top: 3px !important;}
+*form .no_label label {vertical-align: bottom;}
+div.formError, div.comment, div.clone {width: 80%;}
+.copyrights {margin-bottom: 0; padding-bottom: 12px;}
+.empty {height: 0px;}

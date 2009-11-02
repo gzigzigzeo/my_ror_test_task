@@ -1,0 +1,9 @@
+%tr{:class => "_dyn_attr", :id => "dyn_attr_#{dyn_attr.id}"}
+  = dyn_attr.hidden_field :id
+  = dyn_attr.hidden_field "_delete", :class => "_delete_field"
+  %td{:class => "with_form"}
+    = dyn_attr.text_field :name 
+  %td{:class => "with_form"}
+    = dyn_attr.text_field :value
+  %td{:class => "with_form"}
+    = icon(:delete, :class => "_delete", :rel => dyn_attr.id)
