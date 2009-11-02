@@ -1,9 +1,6 @@
 [submodule "vendor/plugins/awesome_nested_set"]
 	path = vendor/plugins/awesome_nested_set
 	url = git://github.com/gzigzigzeo/awesome_nested_set.git
-[submodule "vendor/plugins/admin_css"]
-	path = vendor/plugins/admin_css
-	url = git://github.com/gzigzigzeo/admin_css.git
 [submodule "vendor/plugins/action_link"]
 	path = vendor/plugins/action_link
 	url = git://github.com/gzigzigzeo/action_link.git
