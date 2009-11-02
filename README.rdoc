@@ -19,6 +19,7 @@ http://docs.google.com/View?id=dgjq83q7_25fc32sxf8
 
 == Инсталляция и запуск
 
+  gem install haml
   git clone git://github.com/gzigzigzeo/my_ror_test_task.git
   git submodule update --init
   cd my_ror_test_task
